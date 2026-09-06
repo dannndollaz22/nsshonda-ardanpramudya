@@ -331,20 +331,18 @@
     <!-- Dealer Info Section -->
     <section class="py-10 bg-white border-b">
         <div class="container mx-auto px-4">
-            <div class="flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left">
-                <a href="#lokasi" class="flex flex-1 items-center justify-center md:justify-start gap-4 group cursor-pointer" data-aos="fade-right">
-                    <div class="bg-red-100 text-red-600 p-4 rounded-full group-hover:bg-red-600 group-hover:text-white transform group-hover:rotate-12 transition duration-300">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left mb-8">
+                <div class="flex flex-1 items-center justify-center md:justify-start gap-4" data-aos="fade-right">
+                    <div class="bg-red-100 text-red-600 p-4 rounded-full transform hover:rotate-12 transition flex-shrink-0">
                         <i class="fas fa-map-marker-alt text-3xl"></i>
                     </div>
                     <div>
-                        <h3 class="font-bold text-xl group-hover:text-red-600 transition flex items-center gap-2">
-                            Lokasi Dealer NSS <i class="fas fa-arrow-down text-xs text-red-500 opacity-0 group-hover:opacity-100 transition"></i>
-                        </h3>
+                        <h3 class="font-bold text-xl">Lokasi Dealer NSS</h3>
                         <p class="text-gray-600 text-sm md:text-base">Jl. Soekarno Hatta No. D-510, Mojolangu, Kec. Lowokwaru, Kota Malang, Jawa Timur 65124</p>
                     </div>
-                </a>
+                </div>
                 <div class="flex flex-1 items-center justify-center gap-4 border-t md:border-t-0 md:border-l pt-6 md:pt-0 md:pl-6" data-aos="fade-left">
-                    <div class="bg-red-100 text-red-600 p-4 rounded-full transform hover:rotate-12 transition">
+                    <div class="bg-red-100 text-red-600 p-4 rounded-full transform hover:rotate-12 transition flex-shrink-0">
                         <i class="fas fa-shield-alt text-3xl"></i>
                     </div>
                     <div>
@@ -353,6 +351,8 @@
                     </div>
                 </div>
             </div>
+
+
         </div>
     </section>
 
@@ -514,97 +514,21 @@
         </div>
     </section>
 
-    <!-- 3D Google Maps Location Section -->
-    <section id="lokasi" class="py-16 bg-gray-950 relative overflow-hidden" style="background:#0d0d0d;">
-        <!-- Background accent -->
-        <div class="absolute inset-0 opacity-5" style="background: repeating-linear-gradient(45deg, #dc2626 0px, #dc2626 1px, transparent 1px, transparent 40px);"></div>
-
-        <div class="container mx-auto px-4 relative z-10">
-            <!-- Section Title -->
-            <div class="text-center mb-10" data-aos="fade-up">
-                <span class="text-red-600 text-xs font-black uppercase tracking-[6px] mb-2 block">📍 Temukan Kami</span>
-                <h2 class="text-3xl sm:text-4xl font-black text-white mb-3">Lokasi <span class="text-red-600">Dealer NSS</span></h2>
-                <p class="text-gray-400 text-sm sm:text-base">Kunjungi kami langsung atau hubungi Ardan untuk konsultasi gratis</p>
+    <!-- Google Maps Section -->
+    <section class="py-10 bg-gray-50 border-t border-gray-200">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-6" data-aos="fade-up">
+                <h3 class="text-2xl font-bold text-gray-800 tracking-tight">Kunjungi Dealer Kami</h3>
+                <p class="text-gray-500 mt-2">Nusantara Surya Sakti - Malang</p>
             </div>
-
-            <div class="flex flex-col lg:flex-row gap-6 items-stretch" data-aos="fade-up" data-aos-delay="100">
-
-                <!-- Info Cards (kiri) -->
-                <div class="lg:w-80 flex flex-col gap-4 flex-shrink-0">
-                    <!-- Address -->
-                    <div class="bg-gray-800 rounded-2xl p-5 border border-gray-700 hover:border-red-600 transition duration-300">
-                        <div class="flex items-start gap-4">
-                            <div class="bg-red-600 p-3 rounded-xl flex-shrink-0">
-                                <i class="fas fa-map-marker-alt text-white text-lg"></i>
-                            </div>
-                            <div>
-                                <h4 class="text-white font-bold mb-1">Alamat Dealer</h4>
-                                <p class="text-gray-400 text-sm leading-relaxed">Jl. Soekarno Hatta No. D-510, Mojolangu, Kec. Lowokwaru, Kota Malang, Jawa Timur 65124</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- WhatsApp -->
-                    <div class="bg-gray-800 rounded-2xl p-5 border border-gray-700 hover:border-red-600 transition duration-300">
-                        <div class="flex items-center gap-4">
-                            <div class="bg-green-600 p-3 rounded-xl flex-shrink-0">
-                                <i class="fab fa-whatsapp text-white text-lg"></i>
-                            </div>
-                            <div>
-                                <h4 class="text-white font-bold mb-1">Ardan Pramudya</h4>
-                                <a href="https://wa.me/6282293593950" target="_blank" class="text-green-400 font-semibold text-sm hover:text-green-300 transition">0822-9359-3950</a>
-                                <p class="text-gray-500 text-xs mt-0.5">Marketing Executive (HMC)</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Jam Operasional -->
-                    <div class="bg-gray-800 rounded-2xl p-5 border border-gray-700 hover:border-red-600 transition duration-300">
-                        <div class="flex items-start gap-4">
-                            <div class="bg-red-600 p-3 rounded-xl flex-shrink-0">
-                                <i class="fas fa-clock text-white text-lg"></i>
-                            </div>
-                            <div>
-                                <h4 class="text-white font-bold mb-2">Jam Operasional</h4>
-                                <div class="text-sm space-y-1">
-                                    <div class="flex justify-between gap-6">
-                                        <span class="text-gray-400">Senin – Sabtu</span>
-                                        <span class="text-white font-semibold">08.00 – 17.00</span>
-                                    </div>
-                                    <div class="flex justify-between gap-6">
-                                        <span class="text-gray-400">Minggu</span>
-                                        <span class="text-yellow-400 font-semibold">08.00 – 14.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Directions Button -->
-                    <a href="https://www.google.com/maps/dir/?api=1&destination=NSS+Honda+Nusantara+Sakti+Malang+Soekarno+Hatta" target="_blank"
-                       class="flex items-center justify-center gap-3 bg-red-600 hover:bg-red-700 text-white font-bold py-4 rounded-2xl transition duration-300 transform hover:-translate-y-1 shadow-lg hover:shadow-red-900">
-                        <i class="fas fa-directions text-xl"></i>
-                        Petunjuk Arah ke Dealer
-                    </a>
-                </div>
-
-                <!-- 3D Google Maps (kanan) -->
-                <div class="flex-1 rounded-2xl overflow-hidden border-2 border-gray-700 hover:border-red-600 transition duration-500 shadow-2xl relative" style="min-height: 420px;">
-                    <!-- 3D Badge -->
-                    <div class="absolute top-4 left-4 z-10 bg-red-600 text-white text-xs font-black px-3 py-1.5 rounded-full shadow-lg tracking-widest uppercase flex items-center gap-2">
-                        <i class="fas fa-cube text-xs"></i> 3D Satellite View
-                    </div>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d990.4378!2d112.6148!3d-7.9453!2m3!1f45!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788249a67a2c7f%3A0x3c9c5b0f76b4c4e!2sNSS%20Nusantara%20Sakti%20Honda%20Malang!5e1!3m2!1sid!2sid!4v1725623000000!5m2!1sid!2sid"
-                        width="100%"
-                        height="100%"
-                        style="border:0; min-height: 420px; display:block;"
-                        allowfullscreen=""
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"
-                        title="Lokasi NSS Honda Malang - 3D View">
-                    </iframe>
-                </div>
+            <div class="w-full max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-lg border border-gray-200 h-[300px] md:h-[400px] relative" data-aos="fade-up" data-aos-delay="100">
+                <iframe 
+                    src="https://maps.google.com/maps?q=Jl.%20Soekarno%20Hatta%20No.%20D-510,%20Mojolangu,%20Kota%20Malang&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+                    class="absolute top-0 left-0 w-full h-full border-0" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
         </div>
     </section>
